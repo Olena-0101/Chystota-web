@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: #2A2A2A;
+  font-family: 'museoSansRegular';
+}
+
+@font-face {
+  font-family: 'Museo-Regular';
+  src: url(../../public/fonts/MuseoSans/MuseoSansCyrl-500.ttf);
+}
+@font-face {
+  font-family: 'Museo-Bold';
+  src: url(../../public/fonts/MuseoSans/MuseoSansCyrl-700.ttf);
+}
